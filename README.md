@@ -1,2 +1,1 @@
-# youtube_thumnails
-youtube thumnails downloader 
+# youtube thumbnails downloader
