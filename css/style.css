@@ -4,6 +4,16 @@ body {
     background-color: #fafafa; 
 }
 
+.mars-btn {
+    position: relative;
+    top: -15px;
+    box-shadow: none !important;
+}
+
+.mars-btn:focus {
+    border-color: transparent;
+}
+
 .url-area-title {
     color:#129FEA;;
     font-weight: bold;
@@ -115,18 +125,10 @@ figure:hover + span {
    flex-wrap: nowrap; 
 }
 
-.mars-form input {
+.mars-form {
     width: 25rem;
     margin-bottom: 35px;
     color: #000000;
-}
-
-.mars-form input[type="button"] {
-    width: 5rem;
-    color: white;
-    font-weight: 700;
-    cursor: pointer;
-    background-color: rgb(253,55,50);
 }
 
 footer {
@@ -177,7 +179,7 @@ footer > a.github-link {
         margin-left: 5px;
     } 
 
-    .mars-form input {
+    input.mars-form {
         width: 10rem;
     }
 
@@ -202,7 +204,7 @@ footer > a.github-link {
         margin-left: 5px;
     } 
 
-    .mars-form input {
+    input.mars-form {
         width: 10rem;
     }
 
