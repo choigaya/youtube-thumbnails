@@ -1,4 +1,7 @@
 var http = require('http');
+var app = require('./app');
+var server = http.createServer(app);
+
 "use strict";
  
 require("greenlock-express")
@@ -27,3 +30,5 @@ require("greenlock-express")
         // Get's SSL certificates magically!
         glx.serveApp(app);
     });
+
+server.listen(5300);    
