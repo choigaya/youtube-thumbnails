@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GayaChoi/thumbnails.git"
+    "url": "git+https://github.com/GayaChoi/youtube-thumbnails.git"
   },
   "author": "woosung827@naver.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GayaChoi/thumbnails/issues"
+    "url": "https://github.com/GayaChoi/youtube-thumbnails/issues"
   },
-  "homepage": "https://gayachoi.github.io/thumbnails/",
+  "homepage": "https://gayachoi.github.io/youtube-thumbnails",
   "dependencies": {
     "express": "^4.17.1",
     "greenlock-express": "^3.1.1"
