@@ -688,8 +688,8 @@ svg:not(:root) {
   color: #ffffff;
   outline: 0;
   text-align: center;
-  -webkit-box-shadow: 0px 10px 25px rgba(18, 159, 234, 0.5);
-          box-shadow: 0px 10px 25px rgba(18, 159, 234, 0.5);
+  -webkit-box-shadow: 0px 10px 25px rgba(253, 55, 50, 0.5);
+          box-shadow: 0px 10px 25px rgba(253, 55, 50, 0.5);
   -webkit-box-sizing: border-box !important;
           box-sizing: border-box !important;
   /* buttons color */

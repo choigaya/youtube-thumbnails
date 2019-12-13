@@ -2,20 +2,21 @@
   "name": "thumbnails",
   "version": "1.0.0",
   "description": "===============================",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GayaChoi/thumbnails.git"
   },
-  "author": "",
+  "author": "woosung827@naver.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GayaChoi/thumbnails/issues"
   },
-  "homepage": "https://github.com/GayaChoi/thumbnails#readme",
+  "homepage": "https://gayachoi.github.io/youtube_thumbnails_2020/",
   "dependencies": {
     "express": "^4.17.1",
     "greenlock-express": "^3.1.1"

@@ -9,7 +9,6 @@ body {
     top: -15px;
     font-size: 1em;
     font-weight: 500;
-    box-shadow: none !important;
 }
 
 .mars-btn:focus {

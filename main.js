@@ -2,42 +2,34 @@ var http = require('http');
 var app = require('./app');
 var server = http.createServer(app);
 
-var pkg = require("./package.json");
-
-// The WRONG way:
-//var http = require('http');
-//var httpServer = https.createSecureServer(redirectToHttps);
-//
-// Why is that wrong?
-// Greenlock needs to change some low-level http and https options.
-// Use glx.httpServer(redirectToHttps) instead.
+"use strict";
 
 function httpsWorker(glx) {
-    //
-    // HTTP can only be used for ACME HTTP-01 Challenges
-    // (and it is not required for DNS-01 challenges)
-    //
+    // This can be a node http app (shown),
+    // an Express app, or Hapi, Koa, Rill, etc
+    var app = function(req, res) {
+        res.end("Hello, Encrypted World!");
+    };
 
-    // Get the raw http server:
-    var httpServer = glx.httpServer(function(req, res) {
-        res.statusCode = 301;
-        res.setHeader("Location", "https://" + req.headers.host + req.path);
-        res.end("Insecure connections are not allowed. Redirecting...");
-    });
-
-    httpServer.listen(80, "0.0.0.0", function() {
-        console.info("Listening on ", httpServer.address());
-    });
+    // Serves on 80 and 443
+    // Get's SSL certificates magically!
+    glx.serveApp(app);
 }
 
+var pkg = require("./package.json");
 //require("greenlock-express")
 require("greenlock-express")
     .init(function getConfig() {
         // Greenlock Config
 
         return {
-            package: { name: "localhost:8080", version: pkg.version },
+            // Package name+version is used for ACME client user agent
+            package: { name: pkg.name, version: pkg.version },
+
+            // Maintainer email is the contact for critical bug and security notices
             maintainerEmail: "woosung827@naver.com",
+
+            // Change to true when you're ready to make your app cloud-scale
             cluster: false
         };
     })
