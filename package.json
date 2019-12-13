@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/GayaChoi/thumbnails/issues"
   },
-  "homepage": "https://gayachoi.github.io/youtube_thumbnails_2020/",
+  "homepage": "https://gayachoi.github.io/thumbnails/",
   "dependencies": {
     "express": "^4.17.1",
     "greenlock-express": "^3.1.1"

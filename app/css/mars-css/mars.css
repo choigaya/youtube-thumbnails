@@ -801,8 +801,8 @@ svg:not(:root) {
   opacity: 0.75;
   cursor: pointer;
   border-color: transparent;
-  -webkit-box-shadow: 0px 10px 25px rgba(18, 159, 234, 0.85);
-          box-shadow: 0px 10px 25px rgba(18, 159, 234, 0.85);
+  -webkit-box-shadow: 0px 10px 25px rgba(253, 55, 50, 0.85);
+          box-shadow: 0px 10px 25px rgba(253, 55, 50, 0.85);
 }
 
 .mars-btn.hovered.blue, .mars-btn.blue:hover {
