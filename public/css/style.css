@@ -1,7 +1,8 @@
 body {
     font-size: 14px;
     background-image: none;
-    background-color: #fafafa; 
+    background-color: #fafafa;
+    font-family: 'Nunito'; 
 }
 
 .mars-btn {
