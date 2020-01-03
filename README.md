@@ -10,6 +10,11 @@ Youttool extracts YouTube thumbnails.
 
 3. Press the click button to extract thumbnails.
 
+# Surpport 
+
+chrome,firefox,opera,safari,Internet explorer 11+,edge<br>
+<b>(Internet explorer 11- surpport)</b>
+
 # License
 
 MIT
