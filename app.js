@@ -5,11 +5,11 @@ var app = express();
 
    
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use(favicon(path.join(__dirname,'public','Assets','images','youttool.ico')));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname,'public','index.html'));
+  next();
 });
 
 // ERROR Handling
