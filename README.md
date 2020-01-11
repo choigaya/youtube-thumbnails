@@ -1,10 +1,10 @@
-# Youttool 
+# gayayouthumb 
 
-Youttool extracts YouTube thumbnails.
+gayayouthumb extracts YouTube thumbnails.
 
 # How to Use
 
-1. <a href=https://youttool.firebaseapp.com/ target="_blank">Go to the following site.</a>
+1. <a href=https://gayayouthumb.firebaseapp.com/ target="_blank">Go to the following site.</a>
 
 2. Enter your YouTube video address in the input window.
 
@@ -13,7 +13,7 @@ Youttool extracts YouTube thumbnails.
 # Surpport 
 
 chrome,firefox,opera,safari,Internet explorer 11+,edge<br>
-<b>(Internet explorer 11- surpport)</b>
+<b>(Internet explorer 11- not surpport)</b>
 
 # License
 
