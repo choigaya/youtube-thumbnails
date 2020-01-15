@@ -1,10 +1,10 @@
-# gayayouthumb 
+# Awesomeyouthumb 
 
-gayayouthumb extracts YouTube thumbnails.
+Awesomeyouthumb extracts YouTube thumbnails.
 
 # How to Use
 
-1. <a href=https://gayayouthumb.firebaseapp.com/ target="_blank">Go to the following site.</a>
+1. <a href=https://awesomeyouthumb.firebaseapp.com/ target="_blank">Go to the following site.</a>
 
 2. Enter your YouTube video address in the input window.
 
