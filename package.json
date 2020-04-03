@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/choigaya/youtube-thumbnails.git/issue"
   },
-  "homepage": "https://youttool.firebaseapp.com/",
+  "homepage": "https://awesomeyouthumb.firebaseapp.com/",
   "dependencies": {
     "acme-http-01-standalone": "^3.0.5",
     "express": "^4.17.1",
