@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GayaChoi/youtube-thumbnails.git"
+    "url": "git+https://github.com/choigaya/youtube-thumbnails.git"
   },
   "author": "woosung827@naver.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GayaChoi/youtube-thumbnails/issues"
+    "url": "https://github.com/choigaya/youtube-thumbnails.git/issue"
   },
   "homepage": "https://youttool.firebaseapp.com/",
   "dependencies": {
