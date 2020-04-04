@@ -18,12 +18,7 @@
   },
   "homepage": "https://awesomeyouthumb.firebaseapp.com/",
   "dependencies": {
-    "acme-http-01-standalone": "^3.0.5",
     "express": "^4.17.1",
-    "greenlock": "^3.1.5",
-    "greenlock-express": "^3.1.1",
-    "greenlock-manager-fs": "^3.1.1",
-    "greenlock-store-fs": "^3.2.2",
     "serve-favicon": "^2.5.0"
   }
 }

@@ -136,7 +136,7 @@ figure:hover + span {
 
 footer {
     font-size: 16px;
-    margin-top: 20px;
+    margin: 20px 0px;
     color: rgb(0,0,0,1);
     text-align: center;
     line-height: 1.5;
