@@ -17,7 +17,7 @@ chrome,firefox,opera,safari,Internet explorer 11+,edge<br>
 
 # License
 
-MIT
+* MIT
 
 
 
